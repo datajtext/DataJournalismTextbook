@@ -1,19 +1,21 @@
 # Group By
 
-Like many newsrooms, reporters at St. Louis Public Radio heard the anecdote that violent crime goes up when the weather gets hot.
+Like many newsrooms, reporters at St. Louis Public Radio heard the common story that violent crime goes up when the weather gets hot.
 
 Brent Jones, a visual data journalist there, worked with a reporter and editor to find out.
 
 "We were looking for a summer story, and have talked about putting more of a focus on gun violence," he said.
 
-To do the story, Jones needed three things: police data, weather data, and knowing how to Group By.
+To do the story, Jones needed three things: police data, weather data, and knowing how to Group By. With data from the St. Louis Police Department, daily high temperature data from the National Weather Service, [the rest was just doing the analysis](https://github.com/stlpublicradio/2018-05-31-crime-and-heat-analysis/blob/master/crimes-and-heat.ipynb).
 
 When they were done, they found the anecdotes were true: [crime in St. Louis does indeed edge higher when the temperature gets hotter](http://news.stlpublicradio.org/post/warm-weather-worries-st-louis-when-temperatures-rise-crime-often-follows#stream/0).
 
 
 ### The nut graph
 
-Group By is one of the most basic, and most critical, skills in data analysis. It takes any number of things and groups them together by some common element. Imagine, if you will, you had a bag of Skittle candy spilled out on the table in front of you. Group By takes the yellow ones and puts them in a pile, and the green ones, and the purple ones, and so on.
+Group By is one of the most basic, and most critical, skills in data analysis. It takes any number of things and groups them together by some common element. Imagine, if you will, you had a bag of Skittles candy spilled out on the table in front of you. Group By takes the yellow ones and puts them in a pile, and the green ones, and the purple ones, and so on.
+
+The term Group By comes from databases -- specifically the Structured Query Language (SQL) command GROUP BY -- but it has analogues in every analysis platform out there.
 
 In this module, you'll learn:
 
@@ -23,7 +25,7 @@ In this module, you'll learn:
 
 ### The walkthrough
 
-For this exercise, we're going to use a Python library called Agate, which is an analysis library built for data journalists. With all Python libraries, first we must import it to use it. If you are unfamiliar with Python, please work through the introductory python module first.
+For this exercise, we're going to use a Python library called Agate, which is an analysis library built for data journalists. With all Python libraries, first we must import it to use it. If you are unfamiliar with Python, please work through the introductory Python module first.
 
 ```
 import agate
@@ -248,13 +250,13 @@ sorted_counties.print_table(max_rows=25)
 Things to note:
 
 * If you're not a Nebraska geography nerd, most of those counties are across the north and northwestern parts of the state in an area called the Pine Ridge.
-* Lincoln, the city, is in Lancaster County. According to this data, there have been zero confirmed sightings in Nebraska's second most populous county. Omaha is in Douglas County, with two confirmed sightings.
-* Look carefully at Sheridan county. Scan down the list of counties. See any problems?
+* Lincoln, the city, is in Lancaster County. According to this data, there have been zero confirmed sightings in Nebraska's second most populous county. Omaha is in Douglas County, the state's most populous, with two confirmed sightings.
+* Look carefully at Sheridan County. Scan down the list of counties. See any problems? How might this affect your analysis?
 
 ### Resources for instructors
 
 * Potential assignment: Use local or campus crime data to answer a series of questions. Examples: If you have multiple years of data, how many crimes were reported each year? What is the most common crime type? Which month has the most reported crime?
-* Potential assignment: Use salary data from your city or university. Use group by and create the following summaries by job title: count, median and mean. Discuss the differences. For instance, my university salary data includes a very expensive football coach, a moderately expensive basketball coach, and a lot of well paid assistant coaches before we get to chancellors and vice chancellors. How does that affect the numbers?
+* Potential assignment: Use salary data from your city or university. Use group by and create the following summaries by job title: count, median and mean. Discuss the differences. For instance, my university salary data includes a very expensive football coach, a moderately expensive basketball coach, and a lot of well-paid assistant coaches before we get to chancellors and vice chancellors. How does that affect the numbers?
 
 ### Suggested reading
 
