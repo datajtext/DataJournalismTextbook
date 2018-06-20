@@ -41,7 +41,11 @@ With this data, what is a logical question to ask? How about this one: Which cou
 
 To answer that, we'll group them together using Pivot Tables. Pivot Tables are very useful, but can be a little tricky if you aren't careful.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_u9Poc71oZU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+Here's a short screencast to show you how it all works.
+
+[![Screencast video](http://img.youtube.com/vi/_u9Poc71oZU/0.jpg)](http://www.youtube.com/watch?v=_u9Poc71oZU "Excel Screencast")
+
+If screencasts don't work for you, here's a step by step walkthrough. 
 
 First, we'll go up to the Data menu, then click Summarize with PivotTable.
 
