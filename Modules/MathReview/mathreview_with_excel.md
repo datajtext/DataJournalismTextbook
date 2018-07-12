@@ -1,10 +1,8 @@
 # Math and stat review with Excel
 
-## The walthrough
-
 The math review is going to use the City of Phoenix's budgeted spending for the 2018 fiscal year, compared with previous years.  (Source: https://www.phoenix.gov/budget/annualbudget)
 
-### Getting started
+### Getting started with good habits
 
 * Save and open the file [phx_budget_summary.xlsx](../../Data/phx_budget_summary.xlsx). Don't double-click on a file - go through the effort to start up Excel, navigate to the file, and then open it.
 
@@ -26,9 +24,9 @@ The budget document shows three years' of data: The actual spending in the fisca
 
 You may want to widen the columns and format the numbers before you start:
 
-<img src="images/excel_mathreview_01.gif" width="400">
+<img src="images/excel_mathreview_01.gif" width="500">
 
-#### Check the government's math with SUM
+### Check the government's math with SUM
 
 Our first job is to make sure the government has provided us data that adds up. To do that, we'll SUM all of the departments' spending.
 
@@ -43,7 +41,7 @@ Copy that formula to the right. Notice how the formula changes the addresses tha
 
 What's wrong? The numbers for the budget 2018 don't add up. (Hint: look at the page called "notes" for an explanation.)
 
-#### Change in spending
+### Change in spending
 
 The increase or decrease in projected spending from 2017 to 2018 is just the difference between the two values, beginning in cell F3
 
@@ -51,9 +49,9 @@ The increase or decrease in projected spending from 2017 to 2018 is just the dif
 
 When you copy  it down, note how the references to each row also adjusted. In line 4, it's E4-D4, and so on. Excel and other spreadsheets assume that, most of the time, you want these kinds of adjustments to be made.
 
-<img src="images/excel_mathreview_03.gif" width="500">
+<img src="images/excel_mathreview_03.gif" width="600">
 
-#### Percent change is a breeze
+### Percent change is a breeze
 
 We can't tell the *rate* of growth for each department until we calculate the percent change from one year to another. Now that we already have the change, the percent change is easy. The formula is:
 
@@ -71,7 +69,7 @@ Until you get used to it, there's no harm in doing these calculations step by st
 
 It's also worth comparing the picture you get by looking at raw numbers vs. percentages. In our case, the budget for public safety is expected to rise by a whopping $102 million, but it's a smaller percentage increase than other, smaller departments.
 
-#### Parts of a whole: percent of total
+### Parts of a whole: percent of total
 
 We'd also like to know what portion of the total spending is eaten up by each department. To do that, we need the percent of total.
 
@@ -93,7 +91,7 @@ So our new formula for the percent of total is:
 
 ![E2/E$10](images/mathreview_excel_06.png)
 
-#### While we're at it: two kinds of averages
+### While we're at it: two kinds of averages
 
 Although it doesn't make a lot of sense in this context, we'll go ahead and calculate the *average* or *mean* size of each department, and then calculate the *median* size.
 
