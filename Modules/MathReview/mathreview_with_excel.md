@@ -6,7 +6,7 @@ The math review is going to use the City of Phoenix's budgeted spending for the 
 
 ### Getting started
 
-* Save and open the file [phx_budget_summary.xlsx](../Data/phx_budget_summary.xlsx). Don't double-click on a file - go through the effort to start up Excel, navigate to the file, and then open it.
+* Save and open the file [phx_budget_summary.xlsx](../../Data/phx_budget_summary.xlsx). Don't double-click on a file - go through the effort to start up Excel, navigate to the file, and then open it.
 
 * Is there documentation that provides the source of the data, and the meaning of each column?  Can you get it from the original document or dataset?
 
