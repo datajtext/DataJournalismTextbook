@@ -1,12 +1,12 @@
 # Newsroom math and statistics
-**By Sarah Cohen and Matt Waite**
+By Sarah Cohen and Matt Waite
 <br>July 2018
 
 >*Statistics are people with the tears washed off*
 >
 >\- Paul Brodeur
 
-Simple math and statistics stories are all around us every day. Jo Craven McGinty, then of The New York Times, used simple rates and ratios to discover that a 6-story brick New Jersey hospital was the most expensive in the nation. In 2012, Bayonne Medical Center "charged the highest amounts in the country for nearly one-quarter of the most common hospital treatments," the [Times story said](https://www.nytimes.com/2013/05/17/business/bayonne-medical-center-has-highest-us-billing-rates.html).
+Jo Craven McGinty, then of The New York Times, used simple rates and ratios to discover that a 6-story brick New Jersey hospital was the most expensive in the nation. In 2012, Bayonne Medical Center "charged the highest amounts in the country for nearly one-quarter of the most common hospital treatments," the [Times story said](https://www.nytimes.com/2013/05/17/business/bayonne-medical-center-has-highest-us-billing-rates.html).
 
 To do this story, McGinty only needed to know the volume of the procedures reported by the government and the total amount each hospital charged. Dividing those to find an average price, then ranking the most common procedures, led to this surprising result.
 
@@ -39,7 +39,7 @@ The story was a stunning find, and the newspaper documented case after case of p
 
 All with simple high school algebra.
 
-## The nut graf
+## The nut
 
 Using averages, percentages and percent change is the bread and butter of data journalism, leading to stories ranging from home price comparisons to school reports and crime trends. It may have been charming at one time for reporters to announce that they didn't "do" math, but no longer. Instead, it is now an announcement that the reporter can only do some of the job. You will never be able to tackle complicated, in-depth stories without reviewing basic math.
 
@@ -54,9 +54,9 @@ In this module, you'll learn to:
 
 ## Overcoming your fear of math
 
-When we learned to read, we got used to the idea that 26 letters in American English could be assembled into units that we understand without thinking -- words, sentences, paragraphs and books. We never got the same comfort level with 10 digits, and neither did your audience.
+When we learned to read, we got used to the idea that 26 letters in American English could be assembled into units that we understand without thinking -- words, sentences, paragraphs and books. We never got the same comfort level with 10 digits, and neither did our audience.
 
-Think of your own reaction to seeing a page of words. Now imagine it as a pages of numbers. Seasick yet?
+Think of your own reaction to seeing a page of words. Now imagine it as a page of numbers. Seasick yet?
 
 Instead, picture the number "five". It's easy. It might be fingers or toe or it might be one team on a basketball court. But it's simple to understand.
 
