@@ -64,7 +64,7 @@ Now picture the number 275 million. It's hard. Unfortunately, 275 billion isn't 
 
 So the easiest way to get used to some numbers is to learn ways to cut them down to size, by calculating rates, ratios, percentages and rounding off.
 
-[This video will give you a more in-depth pep talk on getting used to numbers](https://www.youtube.com/channel/UCjQvhsNMw872Zjyv8aErzmw).
+[This video will give you a more in-depth pep talk on getting used to numbers](https://youtu.be/lZjsCycecNc).
 
 ## Put math in its place
 
